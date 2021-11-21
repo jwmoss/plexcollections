@@ -1,0 +1,42 @@
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  Movies:
+    metadata_path:
+      - file: config/movies.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  collection_minimum: 1
+  delete_below_minimum: false
+  tvdb_language: default
+  show_missing_assets: true
+plex:
+  url: http://localhost:32400
+  token: "lolno"
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: "lolno"
+  language: en
+trakt:
+  client_id: lolno
+  client_secret: lolno
+  auto_refresh_token: false
+  authorization:
+    access_token: lolno
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: lolno
+    scope: public
+    created_at: 1636312044

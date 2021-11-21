@@ -1,0 +1,411 @@
+######################################################
+#                Movie Collections                   #
+######################################################
+templates:
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    url_poster: <<poster>>
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+collections:
+  101 Dalmatians:
+    template: {name: Collection, collection: 100693, poster: https://theposterdb.com/api/assets/2464}
+  101 Dalmatians (Live-Action):
+    template: {name: Collection, collection: 124916}
+  28 Days/Weeks Later:
+    template: {name: Collection, collection: 1565}
+    name_mapping: 28 Days-Weeks Later
+  3 Ninja:
+    template: {name: Collection, collection: 71458}
+  "300":
+    template: {name: Collection, collection: 125570, poster: https://theposterdb.com/api/assets/2466}
+  Addams Family:
+    template: {name: Collection, collection: 11716, poster: https://theposterdb.com/api/assets/2473}
+  Air Bud:
+    template: {name: Collection, collection: 97445}
+  Aladdin:
+    template: {name: Collection, collection: 86027, poster: https://theposterdb.com/api/assets/2476}
+  Alice in Wonderland:
+    template: {name: Collection, collection: 261307}
+  Alien:
+    template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/2479}
+  The Amazing Spider-Man:
+    template: {name: Collection, collection: 125574}
+  An American Tail:
+    template: {name: Collection, collection: 8783}
+  Anaconda:
+    template: {name: Collection, collection: 105995, movie: 336560}
+  Anchorman:
+    template: {name: Collection, collection: 93791, poster: https://theposterdb.com/api/assets/2489}
+  Ant-Man:
+    template: {name: Collection, collection: 422834, poster: https://theposterdb.com/api/assets/2491}
+  Appleseed:
+    template: {name: Collection, collection: "87800, 371526"}
+  Atlantis:
+    template: {name: Collection, collection: 100965, poster: https://theposterdb.com/api/assets/2498}
+  Attack on Titan:
+    template: {name: Collection, collection: 370411}
+  Austin Powers:
+    template: {name: Collection, collection: 1006, poster: https://theposterdb.com/api/assets/2450}
+  The Avengers:
+    template: {name: Collection, collection: 86311, poster: https://theposterdb.com/api/assets/2503}
+  AquaMan:
+    template: {name: Collection, collection: 573693, poster: https://theposterdb.com/api/assets/2495}
+  Alien V Predator:
+    template: {name: Collection, collection: 115762, poster: https://theposterdb.com/api/assets/2480}
+  Babe:
+    template: {name: Collection, collection: 9435}
+  Back to the Future:
+    template: {name: Collection, collection: 264, poster: https://theposterdb.com/api/assets/2504}
+  Bad Boys:
+    template: {name: Collection, collection: 14890, poster: https://theposterdb.com/api/assets/2507}
+  Bad Moms:
+    template: {name: Collection, collection: 487376, poster: https://theposterdb.com/api/assets/2508}
+  Bad Santa:
+    template: {name: Collection, collection: 423173, poster: https://theposterdb.com/api/assets/2509}
+  Barbershop:
+    template: {name: Collection, collection: 176097, movie: 14177, poster: https://theposterdb.com/api/assets/2512}
+  Batman:
+    template: {name: Collection, collection: 120794}
+  Beauty and the Beast:
+    template: {name: Collection, collection: 153010, poster: https://theposterdb.com/api/assets/2528}
+  Bill & Ted's Most Excellent:
+    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/2535} 
+  Blade:
+    template: {name: Collection, collection: 735, poster: https://theposterdb.com/api/assets/2534}
+  Blade Runner:
+    template: {name: Collection, collection: 422837, poster: https://theposterdb.com/api/assets/2536}
+  The Blues Brothers:
+    template: {name: Collection, collection: 112636, poster: https://theposterdb.com/api/assets/2538}
+  The Boondock Saints:
+    template: {name: Collection, collection: 87186, poster: https://theposterdb.com/api/assets/78034}
+  The Bourne:
+    template: {name: Collection, collection: 31562}
+  Captain America:
+    template: {name: Collection, collection: 131295, poster: https://theposterdb.com/api/assets/2555}
+  Carrie:
+    template: {name: Collection, collection: 257053}
+  Cars:
+    template: {name: Collection, collection: 87118, poster: https://theposterdb.com/api/assets/2559}
+  Charlie Brown:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls054850259/
+    summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
+  Christmas:
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/111696}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/littlestella3/lists/christmas
+      - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+  Christmas Hallmark: 
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/49408}
+    trakt_list:
+      - https://trakt.tv/users/ad76/lists/hallmark-christmas
+  The Chronicles of Narnia:
+    template: {name: Collection, collection: 420}
+  The Chronicles of Riddick:
+    template: {name: Collection, collection: 2794}
+  Creed:
+    template: {name: Collection, collection: 553717}
+  Crocodile Dundee:
+    template: {name: Collection, collection: 9332}
+  The Croods:
+    template: {name: Collection, collection: 464577}
+  Daddy's Home:
+    template: {name: Collection, collection: 473971}
+  The Dark Knight:
+    template: {name: Collection, collection: 263}
+  DC Super Hero Girls:
+    template: {name: Collection, collection: "477208, 557495"}
+  Deadpool:
+    template: {name: Collection, collection: 448150, movie: 567604}
+  Death Note:
+    template: {name: Collection, collection: 102019}
+  Despicable Me:
+    template: {name: Collection, collection: "86066, 544669"}
+  Die Hard:
+    template: {name: Collection, collection: 1570}
+  Dirty Harry:
+    template: {name: Collection, collection: 10456}
+  Divergent:
+    template: {name: Collection, collection: 283579}
+  DragonHeart:
+    template: {name: Collection, collection: 169452}
+  Dumb and Dumber:
+    template: {name: Collection, collection: 96665}
+  Fantasia:
+    template: {name: Collection, collection: 55427}
+  Fantastic Beasts:
+    template: {name: Collection, collection: 435259}
+  Fantastic Four:
+    template: {name: Collection, collection: 9744}
+  The Fast and the Furious:
+    template: {name: Collection, collection: "9485, 688042"}
+  Fifty Shades:
+    template: {name: Collection, collection: 344830}
+  Final Destination:
+    template: {name: Collection, collection: 8864}
+  Finding Nemo:
+    template: {name: Collection, collection: 137697}
+  The Flintstones:
+    template: {name: Collection, collection: 351684}
+  The Fox and the Hound:
+    template: {name: Collection, collection: 100970}
+  Free Willy:
+    template: {name: Collection, collection: 9328}
+  Friday:
+    template: {name: Collection, collection: 43563}
+  Frozen:
+    template: {name: Collection, collection: 386382, movie: "326359, 460793"}
+  George of the Jungle:
+    template: {name: Collection, collection: 126221}
+  Ghost in the Shell:
+    template: {name: Collection, collection: 23026}
+  A Goofy Movie:
+    template: {name: Collection, collection: 410261}
+  Goosebumps:
+    template: {name: Collection, collection: 508783}
+  Guardians of the Galaxy:
+    template: {name: Collection, collection: 284433}
+  Green Street Hooligans:
+    template: {name: Collection, collection: 152544}
+  Grown Ups:
+    template: {name: Collection, collection: 180546}
+  Halloween:
+    template: {name: Collection, collection: "91361, 126209"}
+  The Hangover:
+    template: {name: Collection, collection: 86119}
+  Hannibal Lecter:
+    template: {name: Collection, collection: 9743, movie: 11454}
+  Happy Death Day:
+    template: {name: Collection, collection: 526380}
+  Happy Feet:
+    template: {name: Collection, collection: 92012}
+  Harold & Kumar:
+    template: {name: Collection, collection: 30663}
+  Harry Potter:
+    template: {name: Collection, collection: 1241}
+  Hellboy:
+    template: {name: Collection, collection: 17235}
+  Hellboy (Animated):
+    template: {name: Collection, collection: 123203}
+  High School Musical:
+    template: {name: Collection, collection: 87253}
+  Highlander:
+    template: {name: Collection, collection: 8050}
+  The Hobbit:
+    template: {name: Collection, collection: 121938}
+  Home Alone:
+    template: {name: Collection, collection: 9888}
+  Honey, I Shrunk the Kids:
+    template: {name: Collection, collection: 72119}
+  The Hunchback of Notre Dame:
+    template: {name: Collection, collection: 97456}
+  The Hunger Games:
+    template: {name: Collection, collection: 131635}
+  The Huntsman:
+    template: {name: Collection, collection: 393379}
+  Ice Age:
+    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
+  The Incredibles:
+    template: {name: Collection, collection: 468222}
+  Independence Day:
+    template: {name: Collection, collection: 304378}
+  Indiana Jones:
+    template: {name: Collection, collection: 84}
+  Iron Man:
+    template: {name: Collection, collection: 131292}
+  It:
+    template: {name: Collection, collection: 477962}
+  James Bond:
+    template: {name: Collection, collection: 645}
+  John Wick:
+    template: {name: Collection, collection: 404609}
+  Johnny Tsunami:
+    template: {name: Collection, collection: 394316}
+  Jumanji:
+    template: {name: Collection, collection: 495527}
+  Jump Street:
+    template: {name: Collection, collection: 212562}
+  The Jungle Book:
+    template: {name: Collection, collection: 97459}
+  Jurassic Park:
+    template: {name: Collection, collection: 328, movie: 630322}
+  The Karate Kid:
+    template: {name: Collection, collection: 8580, movie: 38575}
+  Kick-Ass:
+    template: {name: Collection, collection: 179892}
+  Kill Bill:
+    template: {name: Collection, collection: 2883}
+  Kingsman:
+    template: {name: Collection, collection: 391860}
+  Kung Fu Panda:
+    template: {name: Collection, collection: 77816}
+  Lady and the Tramp:
+    template: {name: Collection, collection: 97460}
+  The Land Before Time:
+    template: {name: Collection, collection: 19163}
+  Legally Blonde:
+    template: {name: Collection, collection: 86024}
+  The Lego Movie:
+    template: {name: Collection, collection: 325470}
+  Lego Star Wars:
+    template: {name: Collection, collection: 302331}
+  Lethal Weapon:
+    template: {name: Collection, collection: 945}
+  Lilo & Stitch:
+    template: {name: Collection, collection: 97461}
+  The Lion King:
+    template: {name: Collection, collection: 94032}
+  The Little Mermaid:
+    template: {name: Collection, collection: 33085}
+  The Lord of the Rings:
+    template: {name: Collection, collection: 119}
+  The Lord of the Rings (Animated):
+    template: {name: Collection, collection: 141290}
+  Mad Max:
+    template: {name: Collection, collection: 8945}
+  Madagascar:
+    template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946"}
+  Maleficent:
+    template: {name: Collection, collection: 531331}
+  Mall Cop:
+    template: {name: Collection, collection: 328372}
+  The Man with No Name:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls023916334/
+    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
+  Marvel Rising:
+    template: {name: Collection, collection: 627234}
+  Marx Brothers:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls068486735/
+    summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars, and fans to be among the greatest and most influential comedians of the 20th century.
+  Mary Poppins:
+    template: {name: Collection, collection: 527439}
+  The Matrix:
+    template: {name: Collection, collection: 2344}
+  The Maze Runner:
+    template: {name: Collection, collection: 295130}
+  Mean Girls:
+    template: {name: Collection, collection: 99606}
+  Meet the Parents:
+    template: {name: Collection, collection: 51509}
+  Men In Black:
+    template: {name: Collection, collection: 86055}
+  The Mighty Ducks:
+    template: {name: Collection, collection: 10709}
+  "Mission: Impossible":
+    template: {name: Collection, collection: 87359}
+    name_mapping: Mission Impossible
+  Monsters, Inc.:
+    template: {name: Collection, collection: 137696}
+  Monty Python:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls072012494/
+    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+  Mortal Kombat:
+    template: {name: Collection, collection: 9818, movie: 664767}
+  Mulan:
+    template: {name: Collection, collection: 87236}
+  The Mummy:
+    template: {name: Collection, collection: 1733}
+  National Treasure:
+    template: {name: Collection, collection: 52984}
+  Pacific Rim:
+    template: {name: Collection, collection: 363369}
+  Paddington:
+    template: {name: Collection, collection: 488924}
+  Pirates of the Caribbean:
+    template: {name: Collection, collection: 295}
+  Pitch Perfect:
+    template: {name: Collection, collection: 306031}
+  Planes:
+    template: {name: Collection, collection: 270252}
+  Planet of the Apes:
+    template: {name: Collection, collection: 173710}
+  Predator:
+    template: {name: Collection, collection: 399}
+  The Princess Diaries:
+    template: {name: Collection, collection: 107674}
+  The Rescuers:
+    template: {name: Collection, collection: 57971}
+  Rio:
+    template: {name: Collection, collection: 229932}
+  RoboCop:
+    template: {name: Collection, collection: 5547}
+  Rocky:
+    template: {name: Collection, collection: 1575}
+  Rush Hour:
+    template: {name: Collection, collection: 90863}
+  The Sandlot:
+    template: {name: Collection, collection: 87214}
+  The Santa Clause:
+    template: {name: Collection, collection: 53159}
+  Sherlock Holmes:
+    template: {name: Collection, collection: 102322}
+  Shrek:
+    template: {name: Collection, collection: 2150, poster: https://theposterdb.com/api/assets/69910}
+  Spy Kids:
+    template: {name: Collection, collection: 86486}
+  "Star Trek: Alternate Reality":
+    template: {name: Collection, collection: 115575}
+    name_mapping: Star Trek Alternate Reality
+  "Star Trek: The Next Generation":
+    template: {name: Collection, collection: 115570}
+    name_mapping: Star Trek The Next Generation
+  "Star Trek: The Original Series":
+    template: {name: Collection, collection: 151}
+    name_mapping: Star Trek The Original Series
+  "Star Wars: Skywalker Saga":
+    template: {name: Collection, collection: 10}
+    name_mapping: Star Wars Skywalker Saga
+  "Star Wars: Legends":
+    template: {name: Collection}
+    tmdb_movie: 348350, 330459
+    summary: "Star Wars Anthology Films and other Star Wars Movies"
+    name_mapping: Star Wars Legends
+  Step Up:
+    template: {name: Collection, collection: 86092}
+  Street Fighter:
+    template: {name: Collection, collection: 190435, movie: "687354, 11667"}
+  Stuart Little:
+    template: {name: Collection, collection: 99727}
+  Super Troopers:
+    template: {name: Collection, collection: 449462}
+  Superman (Original):
+    template: {name: Collection, collection: 8537}
+  Ted:
+    template: {name: Collection, collection: 266672, poster: https://theposterdb.com/api/assets/9720}
+  Teenage Mutant Ninja Turtles:
+    template: {name: Collection, collection: "1582, 401562", movie: 1273, poster: https://theposterdb.com/api/assets/9739}
+  The Terminator:
+    template: {name: Collection, collection: 528, poster: https://theposterdb.com/api/assets/9732}
+  Thor:
+    template: {name: Collection, collection: 131296, poster: https://theposterdb.com/api/assets/9734}
+  Toy Story:
+    template: {name: Collection, collection: 10194, movie: 130925, poster: https://theposterdb.com/api/assets/9744}
+  Transformers:
+    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/9749} 
+  Trolls:
+    template: {name: Collection, collection: 489724, poster: https://theposterdb.com/api/assets/9754}
+  TRON:
+    template: {name: Collection, collection: 63043, movie: 73362, poster: https://theposterdb.com/api/assets/9755}
+  Wayne's World:
+    template: {name: Collection, collection: 8979, poster: https://theposterdb.com/api/assets/9767}
+  Wonder Woman:
+    template: {name: Collection, collection: 468552, poster: https://theposterdb.com/api/assets/9770}
+  Wreck-It Ralph:
+    template: {name: Collection, collection: 404825, poster: https://theposterdb.com/api/assets/9771}
+  X-Men:
+    template: {name: Collection, collection: "748, 453993, 448150", movie: 567604, poster: https://theposterdb.com/api/assets/9782}
+  Zombieland:
+    template: {name: Collection, collection: 537982, poster: https://theposterdb.com/api/assets/75814}
+  Zoolander:
+    template: {name: Collection, collection: 352789, poster: https://theposterdb.com/api/assets/9800}
+  Zorro:
+    template: {name: Collection, collection: 1657}
