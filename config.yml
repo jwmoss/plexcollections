@@ -5,8 +5,6 @@ libraries:                                      # Library mappings must have a c
 settings:                                       # Can be individually specified per library as well
   cache: true
   cache_expiration: 60
-  asset_folders: true
-  assets_for_all: false
   sync_mode: append
   show_unmanaged: true
   show_filtered: false
