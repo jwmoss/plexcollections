@@ -14,41 +14,22 @@ templates:
 collections:
   101 Dalmatians:
     template: {name: Collection, collection: 100693, poster: https://theposterdb.com/api/assets/2464}
-  101 Dalmatians (Live-Action):
-    template: {name: Collection, collection: 124916}
-  28 Days/Weeks Later:
-    template: {name: Collection, collection: 1565}
-    name_mapping: 28 Days-Weeks Later
-  3 Ninja:
-    template: {name: Collection, collection: 71458}
   "300":
     template: {name: Collection, collection: 125570, poster: https://theposterdb.com/api/assets/2466}
   Addams Family:
     template: {name: Collection, collection: 11716, poster: https://theposterdb.com/api/assets/2473}
-  Air Bud:
-    template: {name: Collection, collection: 97445}
   Aladdin:
     template: {name: Collection, collection: 86027, poster: https://theposterdb.com/api/assets/2476}
   Alice in Wonderland:
-    template: {name: Collection, collection: 261307}
+    template: {name: Collection, collection: 261307, poster: https://theposterdb.com/api/assets/78028}
   Alien:
     template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/2479}
-  The Amazing Spider-Man:
-    template: {name: Collection, collection: 125574}
-  An American Tail:
-    template: {name: Collection, collection: 8783}
-  Anaconda:
-    template: {name: Collection, collection: 105995, movie: 336560}
   Anchorman:
     template: {name: Collection, collection: 93791, poster: https://theposterdb.com/api/assets/2489}
   Ant-Man:
     template: {name: Collection, collection: 422834, poster: https://theposterdb.com/api/assets/2491}
-  Appleseed:
-    template: {name: Collection, collection: "87800, 371526"}
   Atlantis:
     template: {name: Collection, collection: 100965, poster: https://theposterdb.com/api/assets/2498}
-  Attack on Titan:
-    template: {name: Collection, collection: 370411}
   Austin Powers:
     template: {name: Collection, collection: 1006, poster: https://theposterdb.com/api/assets/2450}
   The Avengers:
@@ -57,8 +38,6 @@ collections:
     template: {name: Collection, collection: 573693, poster: https://theposterdb.com/api/assets/2495}
   Alien V Predator:
     template: {name: Collection, collection: 115762, poster: https://theposterdb.com/api/assets/2480}
-  Babe:
-    template: {name: Collection, collection: 9435}
   Back to the Future:
     template: {name: Collection, collection: 264, poster: https://theposterdb.com/api/assets/2504}
   Bad Boys:
@@ -70,7 +49,7 @@ collections:
   Barbershop:
     template: {name: Collection, collection: 176097, movie: 14177, poster: https://theposterdb.com/api/assets/2512}
   Batman:
-    template: {name: Collection, collection: 120794}
+    template: {name: Collection, collection: 120794, poster: https://theposterdb.com/api/assets/2525}
   Beauty and the Beast:
     template: {name: Collection, collection: 153010, poster: https://theposterdb.com/api/assets/2528}
   Bill & Ted's Most Excellent:
@@ -84,15 +63,13 @@ collections:
   The Boondock Saints:
     template: {name: Collection, collection: 87186, poster: https://theposterdb.com/api/assets/78034}
   The Bourne:
-    template: {name: Collection, collection: 31562}
+    template: {name: Collection, collection: 31562, poster: https://theposterdb.com/api/assets/2541}
   Captain America:
     template: {name: Collection, collection: 131295, poster: https://theposterdb.com/api/assets/2555}
-  Carrie:
-    template: {name: Collection, collection: 257053}
   Cars:
     template: {name: Collection, collection: 87118, poster: https://theposterdb.com/api/assets/2559}
   Charlie Brown:
-    template: {name: Collection}
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/188207}
     imdb_list: https://www.imdb.com/list/ls054850259/
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Christmas:
@@ -106,171 +83,99 @@ collections:
     trakt_list:
       - https://trakt.tv/users/ad76/lists/hallmark-christmas
   The Chronicles of Narnia:
-    template: {name: Collection, collection: 420}
+    template: {name: Collection, collection: 420, poster: https://theposterdb.com/api/assets/9566}
   The Chronicles of Riddick:
-    template: {name: Collection, collection: 2794}
-  Creed:
-    template: {name: Collection, collection: 553717}
-  Crocodile Dundee:
-    template: {name: Collection, collection: 9332}
+    template: {name: Collection, collection: 2794, poster: https://theposterdb.com/api/assets/9645}
   The Croods:
-    template: {name: Collection, collection: 464577}
+    template: {name: Collection, collection: 464577, poster: https://theposterdb.com/api/assets/2618}
   Daddy's Home:
-    template: {name: Collection, collection: 473971}
+    template: {name: Collection, collection: 473971, poster: https://theposterdb.com/api/assets/9317}
   The Dark Knight:
-    template: {name: Collection, collection: 263}
-  DC Super Hero Girls:
-    template: {name: Collection, collection: "477208, 557495"}
+    template: {name: Collection, collection: 263, poster: https://theposterdb.com/api/assets/9325}
   Deadpool:
-    template: {name: Collection, collection: 448150, movie: 567604}
-  Death Note:
-    template: {name: Collection, collection: 102019}
+    template: {name: Collection, collection: 448150, movie: 567604, poster: https://theposterdb.com/api/assets/9329}
   Despicable Me:
-    template: {name: Collection, collection: "86066, 544669"}
+    template: {name: Collection, collection: "86066, 544669", poster: https://theposterdb.com/api/assets/9333}
   Die Hard:
-    template: {name: Collection, collection: 1570}
+    template: {name: Collection, collection: 1570, poster: https://theposterdb.com/api/assets/9336}
   Dirty Harry:
-    template: {name: Collection, collection: 10456}
+    template: {name: Collection, collection: 10456, poster: https://theposterdb.com/api/assets/9338}
   Divergent:
-    template: {name: Collection, collection: 283579}
-  DragonHeart:
-    template: {name: Collection, collection: 169452}
-  Dumb and Dumber:
-    template: {name: Collection, collection: 96665}
-  Fantasia:
-    template: {name: Collection, collection: 55427}
+    template: {name: Collection, collection: 283579, poster: https://theposterdb.com/api/assets/9342}
   Fantastic Beasts:
-    template: {name: Collection, collection: 435259}
+    template: {name: Collection, collection: 435259, poster: https://theposterdb.com/api/assets/9367}
   Fantastic Four:
-    template: {name: Collection, collection: 9744}
+    template: {name: Collection, collection: 9744, poster: https://theposterdb.com/api/assets/9364}
   The Fast and the Furious:
-    template: {name: Collection, collection: "9485, 688042"}
-  Fifty Shades:
-    template: {name: Collection, collection: 344830}
-  Final Destination:
-    template: {name: Collection, collection: 8864}
+    template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/9370}
   Finding Nemo:
-    template: {name: Collection, collection: 137697}
-  The Flintstones:
-    template: {name: Collection, collection: 351684}
-  The Fox and the Hound:
-    template: {name: Collection, collection: 100970}
-  Free Willy:
-    template: {name: Collection, collection: 9328}
+    template: {name: Collection, collection: 137697, poster: https://theposterdb.com/api/assets/9377}
   Friday:
-    template: {name: Collection, collection: 43563}
+    template: {name: Collection, collection: 43563, poster: https://theposterdb.com/api/assets/9383}
   Frozen:
-    template: {name: Collection, collection: 386382, movie: "326359, 460793"}
-  George of the Jungle:
-    template: {name: Collection, collection: 126221}
-  Ghost in the Shell:
-    template: {name: Collection, collection: 23026}
-  A Goofy Movie:
-    template: {name: Collection, collection: 410261}
-  Goosebumps:
-    template: {name: Collection, collection: 508783}
+    template: {name: Collection, collection: 386382, movie: "326359, 460793", poster: https://theposterdb.com/api/assets/69802}
   Guardians of the Galaxy:
-    template: {name: Collection, collection: 284433}
-  Green Street Hooligans:
-    template: {name: Collection, collection: 152544}
-  Grown Ups:
-    template: {name: Collection, collection: 180546}
-  Halloween:
-    template: {name: Collection, collection: "91361, 126209"}
+    template: {name: Collection, collection: 284433, poster: https://theposterdb.com/api/assets/9411}
   The Hangover:
-    template: {name: Collection, collection: 86119}
-  Hannibal Lecter:
-    template: {name: Collection, collection: 9743, movie: 11454}
-  Happy Death Day:
-    template: {name: Collection, collection: 526380}
-  Happy Feet:
-    template: {name: Collection, collection: 92012}
-  Harold & Kumar:
-    template: {name: Collection, collection: 30663}
+    template: {name: Collection, collection: 86119, poster: https://theposterdb.com/api/assets/9415}
   Harry Potter:
-    template: {name: Collection, collection: 1241}
+    template: {name: Collection, collection: 1241, poster: https://theposterdb.com/api/assets/9421}
   Hellboy:
-    template: {name: Collection, collection: 17235}
-  Hellboy (Animated):
-    template: {name: Collection, collection: 123203}
-  High School Musical:
-    template: {name: Collection, collection: 87253}
+    template: {name: Collection, collection: 17235, poster: https://theposterdb.com/api/assets/9426}
   Highlander:
-    template: {name: Collection, collection: 8050}
+    template: {name: Collection, collection: 8050, poster: https://theposterdb.com/api/assets/9430}
   The Hobbit:
-    template: {name: Collection, collection: 121938}
+    template: {name: Collection, collection: 121938, poster: https://theposterdb.com/api/assets/9434}
   Home Alone:
-    template: {name: Collection, collection: 9888}
-  Honey, I Shrunk the Kids:
-    template: {name: Collection, collection: 72119}
-  The Hunchback of Notre Dame:
-    template: {name: Collection, collection: 97456}
+    template: {name: Collection, collection: 9888, poster: https://theposterdb.com/api/assets/9435}
   The Hunger Games:
-    template: {name: Collection, collection: 131635}
-  The Huntsman:
-    template: {name: Collection, collection: 393379}
+    template: {name: Collection, collection: 131635, poster: https://theposterdb.com/api/assets/9447}
   Ice Age:
-    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
+    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893", poster: https://theposterdb.com/api/assets/9449}
   The Incredibles:
-    template: {name: Collection, collection: 468222}
-  Independence Day:
-    template: {name: Collection, collection: 304378}
+    template: {name: Collection, collection: 468222, poster: https://theposterdb.com/api/assets/9452}
   Indiana Jones:
-    template: {name: Collection, collection: 84}
+    template: {name: Collection, collection: 84, poster: https://theposterdb.com/api/assets/9455}
   Iron Man:
-    template: {name: Collection, collection: 131292}
+    template: {name: Collection, collection: 131292, poster: https://theposterdb.com/api/assets/9462}
   It:
-    template: {name: Collection, collection: 477962}
+    template: {name: Collection, collection: 477962, poster: https://theposterdb.com/api/assets/9471}
   James Bond:
-    template: {name: Collection, collection: 645}
+    template: {name: Collection, collection: 645, poster: https://theposterdb.com/api/assets/9478}
   John Wick:
-    template: {name: Collection, collection: 404609}
-  Johnny Tsunami:
-    template: {name: Collection, collection: 394316}
+    template: {name: Collection, collection: 404609, poster: https://theposterdb.com/api/assets/9484}
   Jumanji:
-    template: {name: Collection, collection: 495527}
+    template: {name: Collection, collection: 495527, poster: https://theposterdb.com/api/assets/9489}
   Jump Street:
-    template: {name: Collection, collection: 212562}
+    template: {name: Collection, collection: 212562, poster: https://theposterdb.com/api/assets/9490}
   The Jungle Book:
-    template: {name: Collection, collection: 97459}
+    template: {name: Collection, collection: 97459, poster: https://theposterdb.com/api/assets/69817}
   Jurassic Park:
-    template: {name: Collection, collection: 328, movie: 630322}
-  The Karate Kid:
-    template: {name: Collection, collection: 8580, movie: 38575}
+    template: {name: Collection, collection: 328, movie: 630322, poster: https://theposterdb.com/api/assets/9492}
   Kick-Ass:
-    template: {name: Collection, collection: 179892}
+    template: {name: Collection, collection: 179892, poster: https://theposterdb.com/api/assets/9500}
   Kill Bill:
-    template: {name: Collection, collection: 2883}
+    template: {name: Collection, collection: 2883, poster: https://theposterdb.com/api/assets/9501}
   Kingsman:
-    template: {name: Collection, collection: 391860}
-  Kung Fu Panda:
-    template: {name: Collection, collection: 77816}
-  Lady and the Tramp:
-    template: {name: Collection, collection: 97460}
-  The Land Before Time:
-    template: {name: Collection, collection: 19163}
+    template: {name: Collection, collection: 391860, poster: https://theposterdb.com/api/assets/9505}
   Legally Blonde:
-    template: {name: Collection, collection: 86024}
+    template: {name: Collection, collection: 86024, poster: https://theposterdb.com/api/assets/9511}
   The Lego Movie:
-    template: {name: Collection, collection: 325470}
+    template: {name: Collection, collection: 325470, poster: https://theposterdb.com/api/assets/9513}
   Lego Star Wars:
-    template: {name: Collection, collection: 302331}
+    template: {name: Collection, collection: 302331, poster: https://theposterdb.com/api/assets/9514}
   Lethal Weapon:
-    template: {name: Collection, collection: 945}
+    template: {name: Collection, collection: 945, poster: https://theposterdb.com/api/assets/33499}
   Lilo & Stitch:
-    template: {name: Collection, collection: 97461}
+    template: {name: Collection, collection: 97461, poster: https://theposterdb.com/api/assets/9517}
   The Lion King:
-    template: {name: Collection, collection: 94032}
+    template: {name: Collection, collection: 94032, poster: https://theposterdb.com/api/assets/9519}
   The Little Mermaid:
-    template: {name: Collection, collection: 33085}
+    template: {name: Collection, collection: 33085, poster: https://theposterdb.com/api/assets/9520}
   The Lord of the Rings:
-    template: {name: Collection, collection: 119}
-  The Lord of the Rings (Animated):
-    template: {name: Collection, collection: 141290}
+    template: {name: Collection, collection: 119, poster: https://theposterdb.com/api/assets/9524}
   Mad Max:
-    template: {name: Collection, collection: 8945}
-  Madagascar:
-    template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946"}
+    template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/9526}
   Maleficent:
     template: {name: Collection, collection: 531331}
   Mall Cop:
