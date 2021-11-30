@@ -53,7 +53,7 @@ collections:
   Beauty and the Beast:
     template: {name: Collection, collection: 153010, poster: https://theposterdb.com/api/assets/2528}
   Bill & Ted's Most Excellent:
-    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/2535} 
+    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/2535}
   Blade:
     template: {name: Collection, collection: 735, poster: https://theposterdb.com/api/assets/2534}
   Blade Runner:
@@ -78,7 +78,7 @@ collections:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/littlestella3/lists/christmas
       - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
-  Christmas Hallmark: 
+  Christmas Hallmark:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/49408}
     trakt_list:
       - https://trakt.tv/users/ad76/lists/hallmark-christmas
@@ -295,7 +295,7 @@ collections:
   Toy Story:
     template: {name: Collection, collection: 10194, movie: 130925, poster: https://theposterdb.com/api/assets/9744}
   Transformers:
-    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/9749} 
+    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/9749}
   Trolls:
     template: {name: Collection, collection: 489724, poster: https://theposterdb.com/api/assets/9754}
   TRON:
