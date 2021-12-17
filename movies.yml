@@ -53,7 +53,7 @@ collections:
   Beauty and the Beast:
     template: {name: Collection, collection: 153010, poster: https://theposterdb.com/api/assets/2528}
   Bill & Ted's Most Excellent:
-    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/2535}
+    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/2535} 
   Blade:
     template: {name: Collection, collection: 735, poster: https://theposterdb.com/api/assets/2534}
   Blade Runner:
@@ -78,7 +78,7 @@ collections:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/littlestella3/lists/christmas
       - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
-  Christmas Hallmark:
+  Christmas Hallmark: 
     template: {name: Collection, poster: https://theposterdb.com/api/assets/49408}
     trakt_list:
       - https://trakt.tv/users/ad76/lists/hallmark-christmas
@@ -177,82 +177,64 @@ collections:
   Mad Max:
     template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/9526}
   Maleficent:
-    template: {name: Collection, collection: 531331}
+    template: {name: Collection, collection: 531331, poster: https://theposterdb.com/api/assets/15421}
   Mall Cop:
-    template: {name: Collection, collection: 328372}
-  The Man with No Name:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls023916334/
-    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
-  Marvel Rising:
-    template: {name: Collection, collection: 627234}
-  Marx Brothers:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls068486735/
-    summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars, and fans to be among the greatest and most influential comedians of the 20th century.
+    template: {name: Collection, collection: 328372, poster: https://theposterdb.com/api/assets/9530}
   Mary Poppins:
-    template: {name: Collection, collection: 527439}
+    template: {name: Collection, collection: 527439, poster: https://theposterdb.com/api/assets/9536}
   The Matrix:
-    template: {name: Collection, collection: 2344}
+    template: {name: Collection, collection: 2344, poster: https://theposterdb.com/api/assets/9539}
   The Maze Runner:
-    template: {name: Collection, collection: 295130}
-  Mean Girls:
-    template: {name: Collection, collection: 99606}
+    template: {name: Collection, collection: 295130, poster: https://theposterdb.com/api/assets/9541}
   Meet the Parents:
-    template: {name: Collection, collection: 51509}
+    template: {name: Collection, collection: 51509, poster: https://theposterdb.com/api/assets/9544}
   Men In Black:
-    template: {name: Collection, collection: 86055}
+    template: {name: Collection, collection: 86055, poster: https://theposterdb.com/api/assets/9545}
   The Mighty Ducks:
-    template: {name: Collection, collection: 10709}
+    template: {name: Collection, collection: 10709, poster: https://theposterdb.com/api/assets/9548}
   "Mission: Impossible":
-    template: {name: Collection, collection: 87359}
+    template: {name: Collection, collection: 87359, poster: https://theposterdb.com/api/assets/9554}
     name_mapping: Mission Impossible
   Monsters, Inc.:
-    template: {name: Collection, collection: 137696}
-  Monty Python:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls072012494/
-    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+    template: {name: Collection, collection: 137696, poster: https://theposterdb.com/api/assets/9556}
   Mortal Kombat:
-    template: {name: Collection, collection: 9818, movie: 664767}
+    template: {name: Collection, collection: 9818, movie: 664767, poster: https://theposterdb.com/api/assets/17721}
   Mulan:
-    template: {name: Collection, collection: 87236}
+    template: {name: Collection, collection: 87236, poster: https://theposterdb.com/api/assets/9561}
   The Mummy:
-    template: {name: Collection, collection: 1733}
+    template: {name: Collection, collection: 1733, poster: https://theposterdb.com/api/assets/9562}
   National Treasure:
-    template: {name: Collection, collection: 52984}
+    template: {name: Collection, collection: 52984, poster: https://theposterdb.com/api/assets/9567}
   Pacific Rim:
-    template: {name: Collection, collection: 363369}
+    template: {name: Collection, collection: 363369, poster: https://theposterdb.com/api/assets/9596}
   Paddington:
-    template: {name: Collection, collection: 488924}
+    template: {name: Collection, collection: 488924, poster: https://theposterdb.com/api/assets/9597}
   Pirates of the Caribbean:
-    template: {name: Collection, collection: 295}
+    template: {name: Collection, collection: 295, poster: https://theposterdb.com/api/assets/9605}
   Pitch Perfect:
-    template: {name: Collection, collection: 306031}
+    template: {name: Collection, collection: 306031, poster: https://theposterdb.com/api/assets/9606}
   Planes:
-    template: {name: Collection, collection: 270252}
+    template: {name: Collection, collection: 270252, poster: https://theposterdb.com/api/assets/9611}
   Planet of the Apes:
-    template: {name: Collection, collection: 173710}
+    template: {name: Collection, collection: 173710, poster: https://theposterdb.com/api/assets/33455}
   Predator:
-    template: {name: Collection, collection: 399}
+    template: {name: Collection, collection: 399, poster: https://theposterdb.com/api/assets/9626}
   The Princess Diaries:
-    template: {name: Collection, collection: 107674}
-  The Rescuers:
-    template: {name: Collection, collection: 57971}
+    template: {name: Collection, collection: 107674, poster: https://theposterdb.com/api/assets/9628}
   Rio:
-    template: {name: Collection, collection: 229932}
+    template: {name: Collection, collection: 229932, poster: https://theposterdb.com/api/assets/9649}
   RoboCop:
-    template: {name: Collection, collection: 5547}
+    template: {name: Collection, collection: 5547, poster: https://theposterdb.com/api/assets/9651}
   Rocky:
-    template: {name: Collection, collection: 1575}
+    template: {name: Collection, collection: 1575, poster: https://theposterdb.com/api/assets/9652}
   Rush Hour:
-    template: {name: Collection, collection: 90863}
+    template: {name: Collection, collection: 90863, poster: https://theposterdb.com/api/assets/9656}
   The Sandlot:
-    template: {name: Collection, collection: 87214}
+    template: {name: Collection, collection: 87214, poster: https://theposterdb.com/api/assets/9658}
   The Santa Clause:
-    template: {name: Collection, collection: 53159}
+    template: {name: Collection, collection: 53159, poster: https://theposterdb.com/api/assets/17702}
   Sherlock Holmes:
-    template: {name: Collection, collection: 102322}
+    template: {name: Collection, collection: 102322, poster: https://theposterdb.com/api/assets/9671}
   Shrek:
     template: {name: Collection, collection: 2150, poster: https://theposterdb.com/api/assets/69910}
   Spy Kids:
@@ -267,7 +249,7 @@ collections:
     template: {name: Collection, collection: 151}
     name_mapping: Star Trek The Original Series
   "Star Wars: Skywalker Saga":
-    template: {name: Collection, collection: 10}
+    template: {name: Collection, collection: 10, poster: }
     name_mapping: Star Wars Skywalker Saga
   "Star Wars: Legends":
     template: {name: Collection}
@@ -275,15 +257,15 @@ collections:
     summary: "Star Wars Anthology Films and other Star Wars Movies"
     name_mapping: Star Wars Legends
   Step Up:
-    template: {name: Collection, collection: 86092}
+    template: {name: Collection, collection: 86092, poster: https://theposterdb.com/api/assets/9706}
   Street Fighter:
-    template: {name: Collection, collection: 190435, movie: "687354, 11667"}
+    template: {name: Collection, collection: 190435, movie: "687354, 11667", poster: https://theposterdb.com/api/assets/17699}
   Stuart Little:
-    template: {name: Collection, collection: 99727}
+    template: {name: Collection, collection: 99727, poster: https://theposterdb.com/api/assets/9708}
   Super Troopers:
-    template: {name: Collection, collection: 449462}
+    template: {name: Collection, collection: 449462, poster: https://theposterdb.com/api/assets/9710}
   Superman (Original):
-    template: {name: Collection, collection: 8537}
+    template: {name: Collection, collection: 8537, poster: https://theposterdb.com/api/assets/9711}
   Ted:
     template: {name: Collection, collection: 266672, poster: https://theposterdb.com/api/assets/9720}
   Teenage Mutant Ninja Turtles:
@@ -295,7 +277,7 @@ collections:
   Toy Story:
     template: {name: Collection, collection: 10194, movie: 130925, poster: https://theposterdb.com/api/assets/9744}
   Transformers:
-    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/9749}
+    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/9749} 
   Trolls:
     template: {name: Collection, collection: 489724, poster: https://theposterdb.com/api/assets/9754}
   TRON:
@@ -313,4 +295,4 @@ collections:
   Zoolander:
     template: {name: Collection, collection: 352789, poster: https://theposterdb.com/api/assets/9800}
   Zorro:
-    template: {name: Collection, collection: 1657}
+    template: {name: Collection, collection: 1657, poster: https://theposterdb.com/api/assets/60987}
